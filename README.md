@@ -6,4 +6,5 @@ Uso: De permisao de execucao (chmod u+x mailer.sh) e execute com o comando ./mai
 
 
 Sinta-se livre para contribuir, reclamar ou elogiar. ^_^.
+
 TODO: Implementar o envio de arquivos e documentar o codigo.
