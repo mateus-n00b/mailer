@@ -8,6 +8,7 @@
 # Versao 1.0
 #
 # Licenca GPL
+# TODO: adicionar mais servidores smtps. Em vez de usar 'ifs' use o 'case'!
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 zen='zenity'
@@ -30,7 +31,7 @@ send_mail(){
 		var.quit()"
 		foo=$(sed 's/^ //g' <<< $foo)
 		
-		python -c "$foo" &> /tmp/error
+		python -c "$foo" 2> /tmp/error
 		[ -z $(cat /tmp/error) ] && $zen --error --width 200 --text "Somethings goes wrong! Try later." && exit 2		
 				
 		$zen --info --text "Email send!" --width 200				
