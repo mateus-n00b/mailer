@@ -8,7 +8,7 @@
 # Versao 1.0
 #
 # Licenca GPL
-# TODO: adicionar mais servidores smtps. Em vez de usar 'ifs' use o 'case'!
+# TODO: adicionar mais servidores smtps. No lugar de  'ifs' use o 'case'!
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 zen='zenity'
